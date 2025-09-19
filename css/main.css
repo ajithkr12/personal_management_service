@@ -148,7 +148,8 @@
   --bg-demo-screen-08--light: url(../img/demo/screens/08.webp);
   --bg-demo-screen-09--light: url(../img/demo/screens/09.webp);
   /* dark color scheme */
-  --base--dark: #161616;
+  /* --base--dark: #161616; */
+  --base--dark: #180a16;
   --base-rgb--dark: 22, 22, 22;
   --base-tint--dark: #1c1c1c;
   --base-shade--dark: #0a0a0a;
