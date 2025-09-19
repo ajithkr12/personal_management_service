@@ -7230,7 +7230,7 @@ form textarea:required:valid {
   position: absolute;
   top: 7.6rem;
   right: 0;
-  width: 100%;
+  width: 200px;
   background-color: var(--accent);
   border: 1px solid var(--base);
   -moz-border-radius: 3.3rem;
@@ -7273,7 +7273,7 @@ form textarea:required:valid {
 @media only screen and (min-width: 768px) {
   .mxd-hero-00__marquee {
     top: 0;
-    width: 484px;
+    /* width: 484px; */
     height: 88px;
     -moz-border-radius: 4.4rem;
     border-radius: 4.4rem;
@@ -7294,7 +7294,7 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 1200px) {
   .mxd-hero-00__marquee {
-    width: 719px;
+    /* width: 719px; */
     height: 132px;
     -moz-border-radius: 6.6rem;
     border-radius: 6.6rem;
@@ -7313,7 +7313,8 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 1600px) {
   .mxd-hero-00__marquee {
-    width: 816px;
+    /* width: 816px; */
+    width: 400px;
     height: 154px;
     -moz-border-radius: 7.7rem;
     border-radius: 7.7rem;
