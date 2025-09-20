@@ -21584,15 +21584,20 @@ form textarea:required:valid {
 .mxd-logo__circle {
   width: 140px; /* match original SVG size */
   height: 140px;
-  background-color: #fff; /* white circle */
+  /* background-color: red;  */
   border-radius: 50%; /* makes it round */
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden; /* trims anything outside circle */
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+
+  background-color: transparent;
+  /* border: 1px solid #ffffff; */
 }
 
 .mxd-logo__image {
-  width: 120px; /* shrink PNG to fit */
-  height: 120px;
+  width: 138px; /* shrink PNG to fit */
+  height: 138px;
 }
